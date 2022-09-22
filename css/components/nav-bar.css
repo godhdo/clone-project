@@ -45,3 +45,15 @@
     right: -5px;
     bottom : 27px;
 }
+
+.nav_notification3 {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    display: flex;
+    font-weight: 600;
+    position: absolute;
+    left: 70px;
+    bottom: 17px;
+}
