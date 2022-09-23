@@ -57,3 +57,15 @@
     left: 70px;
     bottom: 17px;
 }
+
+.nav_notification4 {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    display: flex;
+    font-weight: 600;
+    position: absolute;
+    right: -5px;
+    bottom: 18px;
+}
