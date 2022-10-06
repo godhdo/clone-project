@@ -25,3 +25,17 @@
 .screen_header_icons span a i {
     color: rgba(0, 0, 0, 0.8);
 }
+
+@keyframes rotategear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen_header_icons .fa-gear:hover {
+animation: rotategear 1s linear infinite;
+cursor: pointer;
+}
