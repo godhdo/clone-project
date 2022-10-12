@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+    border: 5px solid teal;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+}
+
+.status-bar_close {
+    font-size: 30px;
+    font-weight: bold;
+}
