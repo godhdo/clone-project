@@ -1,19 +1,61 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <link rel="stylesheet" href="css/chall05.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>challenge04</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/chall05.css">
+    <title>challenge05</title>
   </head>
   <body>
-    <header class="status-bar">
-        <div class="status-bar_close">
-            <i class="fa-solid fa-x"></i>
-            <span>Playlist</span>
-        </div>
-    </header>
+    <div class="wrapper">
+      <header>
+        <i class="fas fa-times"></i>
+        <h1>Playlist</h1>
+      </header>
+      <main>
+        <section class="main-song">
+          <div class="main-song_cover">
+            <i class="far fa-image fa-3x"></i>
+          </div>
+          <div class="main-song_data">
+            <h3 class="main-song_title">We Love 김치!</h3>
+            <h5 class="main-song_author">By Lynn</h5>
+          </div>
+        </section>
+        <section class="btns">
+          <span class="btns_btn btns_btn-big">
+            <i class="fas fa-play fa-xs"></i>
+            <span>Play</span>
+          </span>
+          <span class="btns_btn"><i class="fas fa-heart"></i></span>
+          <span class="btns_btn"><i class="fas fa-plus"></i></span>
+        </section>
+        <ul class="song-list">
+          <li class="song-list_song">
+            <div class="song-list_cover"></div>
+            <div class="song-list_data">
+              <h5>Corona Sucks</h5>
+              <h6>니꼬</h6>
+            </div>
+          </li>
+          <li class="song-list_song">
+            <div class="song-list_cover"></div>
+            <div class="song-list_data">
+                <h5>Corona Sucks</h5>
+                <h6>니꼬</h6>
+            </div>
+          </li>
+          <li class="song-list_song">
+            <div class="song-list_cover"></div>
+            <div class="song-list_data">
+                <h5>Corona Sucks</h5>
+                <h6>니꼬</h6>
+            </div>
+          </li>
+        </ul>
+      </main>
+    </div>
   </body>
 </html>
-<script 
-src="https://kit.fontawesome.com/505cf8ba8d.js" crossorigin="anonymous"></script>
