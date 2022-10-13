@@ -9,4 +9,112 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: aquamarine;
 }
+
+.wrapper {
+    background-color: white;
+    width: 40%;
+    height: 80%;
+}
+
+header {
+    background-color: #fdca48;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+header i {
+    margin: 15px;
+}
+
+.search_column {
+    position: relative;
+    bottom: 20px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search_column input[type="text"] {
+    width: 95%;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search ::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+    padding-left: 15px;
+}
+
+.search i {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color:rgba(0, 0, 0, 0.3)
+}
+
+.main-book {
+    margin : 20px; 
+}
+
+.main-book h1 {
+    font-size: 25px;
+    font-weight: 600;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.main-book_cover {
+    position: relative;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.main-book_cover img {
+    border-radius: 7px;
+    width: 100px;
+}
+
+.main-book_outline {
+    padding: 2px 10px 0px 15px;
+    position: relative;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.main-book_sub {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.main-book_author {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.main-book_outline .fas {
+    color: #fdca48;
+}
+
+.main-book_outline i:nth-child(7) {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.main-book_tags {
+    display: flex;
+    background-color:rgba(211, 211, 211, 0.2);
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 60%;
+}
+
