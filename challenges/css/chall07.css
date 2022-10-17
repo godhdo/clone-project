@@ -1,0 +1,159 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "맑은 고딕", "Malgun Gothic", "Apple Gothic", sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #222222;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first {
+    background-color: white;
+    width: 320px;
+    min-height: 70vh;
+    border-radius: 30px;
+    box-shadow: 0 19px 38px rgba(227, 226, 235, 0.3), 0 15px 12px rgba(227, 226, 235, 0.2);
+    position: relative;
+    padding: 35px 25px;
+    margin-top: 100px;
+}
+
+.artist {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.artist_photo {
+    width: 80px;
+    border-radius: 40px;
+    box-shadow: 0 10px 39px rgba(154, 154, 161, 0.76);
+}
+
+.artist_info {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.artist_name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.artist_feat {
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(154, 154, 161, 0.76);
+}
+
+.play {
+    display: flex;
+    justify-content: space-around;
+    margin-top : 40px;
+}
+
+.play_mix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.play_like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 0 5px 38px rgba(227, 226, 235, 0.5), 0 5px 12px rgba(227, 226, 235, 0.3);
+    color: rgba(154, 154, 161, 1);
+    padding-bottom: 3px;
+}
+
+.play_like i {
+    color: black;
+    margin-right: 5px;
+    padding-top: 3px;
+}
+
+.list {
+    margin-top: 30px;
+    margin-bottom: -5px;
+    display: flex;
+    background-color: white;
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.list_name {
+    display: flex;
+}
+
+.list_name img {
+    width: 40px;
+    border-radius: 10px;
+}
+
+.list_info {
+    padding-left: 12px;
+}
+
+.list_info-artist {
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.list_info-title {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.list_info-icon {
+    display: flex;
+    align-items: center;
+    color: rgba(154, 154, 161, 0.6);
+    font-size: 18px;
+    position: absolute;
+    right: 30px;
+}
+
+.playlist {
+    background-color: black;
+    width: 280px;
+}
+
+.second {
+    background-color: white;
+    width: 320px;
+    min-height: 70vh;
+    border-radius: 30px;
+    box-shadow: 0 19px 38px rgba(227, 226, 235, 0.3), 0 15px 12px rgba(227, 226, 235, 0.2);
+    position: relative;
+    padding: 35px 25px;
+    margin-top: 100px;
+}
